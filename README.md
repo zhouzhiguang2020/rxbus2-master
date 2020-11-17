@@ -2,35 +2,20 @@
 rst step is to include RxBus2 into your project, for example, as a Gradle compile dependency:
 
 Now we write the hello world app.
-基于Rxjava3.0 的事件
-```groovy
-dependencies {
+# Features
 
-}
-```groovy
-allprojects {
- repositories {
-    jcenter()
-    //...some other repo.
-    maven { url "https://jitpack.io" }
- }
-}
-```
-and then add RxBus2 dependency in your module gradle:
+* Support annotation(RxSubscribe):auto register and unregister event.
+* Support sticky event(Just like sticky broadcast).
+* Support 3 type Bus:
+	* RxBus(Publish Bus)
+	* BehaviorBus
+	* ReplayBus
 
-```groovy
-    implementation group: 'io.reactivex.rxjava3', name: 'rxjava', version: '3.x.x'
-    implementation('com.jakewharton.rxrelay3:rxrelay:3.0.0'){
-        exclude group: 'io.reactivex.rxjava3',module: 'rxjava'
-    }
-   // 基于Rxjava3.0的rxbus3事件
-      implementation 'com.github.zhouzhiguang2020:rxbus2-master:1.0.0'
-// maybe you need RxAndroid3 if you are using this on Android.
-//   implementation('io.reactivex.rxjava2:rxandroid:2.x.x') {
-//        exclude group: 'io.reactivex.rxjava3', module: 'rxjava'
-//    }
-//remember replace "3.x.x" to the latest version. You can find latest version of RxBus2 on [release page](https://github.com/wind0ws/rxbus2/releases)
-```
+## [Getting started](https://jitpack.io/#wind0ws/rxbus2)
+The first step is to include RxBus2 into your project, for example, as a Gradle compile dependency:
+
+Because of using [jitpack.io](https://jitpack.io/),so we need add the jitpack.io repository in your root project gradle:
+
 
 If you using this library on Android. Maybe you want to observe event on **Main Thread**(UI Thread).
 So in your Application onCreate you should config MainScheduler for RxBus once.
