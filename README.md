@@ -3,6 +3,12 @@ rst step is to include RxBus2 into your project, for example, as a Gradle compil
 
 Now we write the hello world app.
 基于Rxjava3.0 的事件
+```groovy
+dependencies {
+    // 基于Rxjava3.0的rxbus3事件
+    implementation 'com.github.zhouzhiguang2020:rxbus2-master:1.0.0'
+}
+```
 ## Hello,World.
 If you using this library on Android. Maybe you want to observe event on **Main Thread**(UI Thread).
 So in your Application onCreate you should config MainScheduler for RxBus once.
