@@ -9,7 +9,16 @@ dependencies {
     implementation 'com.github.zhouzhiguang2020:rxbus2-master:1.0.0'
 }
 ```
-## Hello,World.
+####
+
+```groovy
+dependencies {
+     // 基于Rxjava3.0的rxbus3事件
+        implementation 'com.github.zhouzhiguang2020:rxbus2-master:1.0.0'
+}
+```
+####
+
 If you using this library on Android. Maybe you want to observe event on **Main Thread**(UI Thread).
 So in your Application onCreate you should config MainScheduler for RxBus once.
 
