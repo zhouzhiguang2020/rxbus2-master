@@ -1,6 +1,6 @@
 package com.threshold.rxbus2demo.util;
 
-import com.threshold.rxbus2.util.Logger;
+import com.threshold.rxbus3.util.Logger;
 
 /**
  * Logger for record RxBus2 internal log.(For debug purpose.)

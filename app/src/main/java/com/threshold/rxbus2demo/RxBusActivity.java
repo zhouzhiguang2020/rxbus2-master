@@ -8,9 +8,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.orhanobut.logger.Logger;
-import com.threshold.rxbus2.RxBus;
-import com.threshold.rxbus2.annotation.RxSubscribe;
-import com.threshold.rxbus2.util.EventThread;
+import com.threshold.rxbus3.RxBus;
+import com.threshold.rxbus3.annotation.RxSubscribe;
+import com.threshold.rxbus3.util.EventThread;
 import com.threshold.rxbus2demo.bean.DemoBean1;
 import com.threshold.rxbus2demo.bean.DemoBean2;
 import com.threshold.rxbus2demo.bean.event.DemoEvent1;

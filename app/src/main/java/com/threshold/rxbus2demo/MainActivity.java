@@ -7,7 +7,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.threshold.rxbus2.RxBus;
+import com.threshold.rxbus3.RxBus;
 import com.threshold.rxbus2demo.bean.event.TestEvent;
 import com.threshold.rxbus2demo.bean.event.TestEvent1;
 

@@ -1,4 +1,4 @@
-package com.threshold.rxbus2;
+package com.threshold.rxbus3;
 
 
 import com.jakewharton.rxrelay3.ReplayRelay;

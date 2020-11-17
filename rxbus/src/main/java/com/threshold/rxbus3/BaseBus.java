@@ -1,9 +1,9 @@
-package com.threshold.rxbus2;
+package com.threshold.rxbus3;
 
 
 import com.jakewharton.rxrelay3.Relay;
-import com.threshold.rxbus2.util.EventThread;
-import com.threshold.rxbus2.util.Logger;
+import com.threshold.rxbus3.util.EventThread;
+import com.threshold.rxbus3.util.Logger;
 
 import java.util.Objects;
 

@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.orhanobut.logger.Logger;
-import com.threshold.rxbus2.ReplayBus;
+import com.threshold.rxbus3.ReplayBus;
 import com.threshold.rxbus2demo.util.RandomUtil;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;

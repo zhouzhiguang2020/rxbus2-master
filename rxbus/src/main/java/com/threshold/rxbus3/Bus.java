@@ -1,4 +1,4 @@
-package com.threshold.rxbus2;
+package com.threshold.rxbus3;
 
 
 import io.reactivex.rxjava3.annotations.NonNull;

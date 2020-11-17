@@ -6,7 +6,7 @@ import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.Logger;
 import com.orhanobut.logger.PrettyFormatStrategy;
-import com.threshold.rxbus2.RxBus;
+import com.threshold.rxbus3.RxBus;
 import com.threshold.rxbus2demo.util.RxLogger;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;

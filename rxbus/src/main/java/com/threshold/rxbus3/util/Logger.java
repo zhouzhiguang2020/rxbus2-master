@@ -1,4 +1,4 @@
-package com.threshold.rxbus2.util;
+package com.threshold.rxbus3.util;
 
 /**
  * Interface for record RxBus log.

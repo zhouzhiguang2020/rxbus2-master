@@ -4,9 +4,9 @@ package com.threshold.rxbus2demo
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.threshold.rxbus2.RxBus
-import com.threshold.rxbus2.annotation.RxSubscribe
-import com.threshold.rxbus2.util.EventThread
+import com.threshold.rxbus3.RxBus
+import com.threshold.rxbus3.annotation.RxSubscribe
+import com.threshold.rxbus3.util.EventThread
 import com.threshold.rxbus2demo.bean.event.TestEvent
 import com.threshold.rxbus2demo.bean.event.TestEvent1
 import kotlinx.android.synthetic.main.activity_second_layout.*

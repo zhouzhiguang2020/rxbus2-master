@@ -2,7 +2,7 @@
 rst step is to include RxBus2 into your project, for example, as a Gradle compile dependency:
 
 Now we write the hello world app.
-
+基于Rxjava3.0 的事件
 ## Hello,World.
 If you using this library on Android. Maybe you want to observe event on **Main Thread**(UI Thread).
 So in your Application onCreate you should config MainScheduler for RxBus once.
@@ -101,9 +101,9 @@ add this line into your "proguard-rules.pro" file.
 -keepattributes RuntimeInvisibleParameterAnnotations
 
 -keepclassmembers class ** {
-    @com.threshold.rxbus2.annotation.RxSubscribe <methods>;
+    @com.threshold.rxbus3.annotation.RxSubscribe <methods>;
 }
--keep enum com.threshold.rxbus2.util.EventThread { *; }
+-keep enum com.threshold.rxbus3.util.EventThread { *; }
 ```
 
 ## FAQ

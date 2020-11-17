@@ -1,5 +1,7 @@
-package com.threshold.rxbus2.util;
+package com.threshold.rxbus3.util;
 
+
+import com.threshold.rxbus3.BaseBus;
 
 import io.reactivex.rxjava3.core.Scheduler;
 import io.reactivex.rxjava3.schedulers.Schedulers;
@@ -41,7 +43,7 @@ public enum EventThread {
      * Set {@link #MAIN} {@link Scheduler} in your current environment.<br>
      * For example in Android,you probably set @{code AndroidSchedulers.mainThread()}.
      * <p>
-     *     Note: {@link com.threshold.rxbus2.BaseBus#setMainScheduler(Scheduler)}  is a handy method for this.
+     *     Note: {@link BaseBus#setMainScheduler(Scheduler)}  is a handy method for this.
      * </p>
      * @param scheduler {@link #MAIN} {@link Scheduler}
      */

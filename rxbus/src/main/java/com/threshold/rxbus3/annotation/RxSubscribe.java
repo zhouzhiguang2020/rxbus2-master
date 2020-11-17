@@ -1,6 +1,6 @@
-package com.threshold.rxbus2.annotation;
+package com.threshold.rxbus3.annotation;
 
-import com.threshold.rxbus2.util.EventThread;
+import com.threshold.rxbus3.util.EventThread;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -13,6 +13,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface RxSubscribe {
-    EventThread observeOnThread() default EventThread.IO;
+    com.threshold.rxbus3.util.EventThread observeOnThread() default EventThread.IO;
     boolean isSticky() default false;
 }

@@ -1,8 +1,8 @@
-package com.threshold.rxbus2;
+package com.threshold.rxbus3;
 
 import com.jakewharton.rxrelay3.PublishRelay;
-import com.threshold.rxbus2.annotation.RxSubscribe;
-import com.threshold.rxbus2.util.EventThread;
+import com.threshold.rxbus3.annotation.RxSubscribe;
+import com.threshold.rxbus3.util.EventThread;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;

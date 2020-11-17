@@ -120,6 +120,6 @@
 -keepattributes RuntimeInvisibleParameterAnnotations
 
 -keepclassmembers class ** {
-    @com.threshold.rxbus2.annotation.RxSubscribe <methods>;
+    @com.threshold.rxbus3.annotation.RxSubscribe <methods>;
 }
--keep enum com.threshold.rxbus2.util.EventThread { *; }
+-keep enum com.threshold.rxbus3.util.EventThread { *; }
