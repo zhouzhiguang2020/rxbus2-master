@@ -8,6 +8,7 @@ import com.threshold.rxbus2.RxBus
 import com.threshold.rxbus2.annotation.RxSubscribe
 import com.threshold.rxbus2.util.EventThread
 import com.threshold.rxbus2demo.bean.event.TestEvent
+import com.threshold.rxbus2demo.bean.event.TestEvent1
 import kotlinx.android.synthetic.main.activity_second_layout.*
 
 class SecondActivity : AppCompatActivity() {
@@ -22,9 +23,17 @@ class SecondActivity : AppCompatActivity() {
     @RxSubscribe(observeOnThread = EventThread.MAIN, isSticky = true)
     @SuppressWarnings("unused")
     fun RxEvent(event: TestEvent) {
-        msg.text=event.msg
-        Log.e("测试",event.msg)
+        msg.text = event.msg
+        Log.e("测试", event.msg)
     }
+
+    @RxSubscribe(observeOnThread = EventThread.MAIN, isSticky = false)
+    @SuppressWarnings("unused")
+    fun RxEvent(event: TestEvent1) {
+        msg.text = event.msg
+        Log.e("测试==", event.msg)
+    }
+
 
     override fun onDestroy() {
         super.onDestroy()
