@@ -6,22 +6,8 @@ buildscript {
     }
     repositories {
         google()
-        mavenCentral()
         jcenter()
-        maven { url "https://jitpack.io" }
-        maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }
-        maven {
-            url 'http://mirrors.huaweicloud.com/repository/maven/huaweicloudsdk/'
-        }
-        maven {
-            url 'http://mirrors.huaweicloud.com/repository/maven/'
-        }
-        maven {
-            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
-        }
+        mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.2'
@@ -35,22 +21,9 @@ buildscript {
 allprojects {
     repositories {
         google()
-        mavenCentral()
         jcenter()
+        mavenCentral()
         maven { url "https://jitpack.io" }
-        maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }
-        maven {
-            url 'http://mirrors.huaweicloud.com/repository/maven/huaweicloudsdk/'
-        }
-        maven {
-            url 'http://mirrors.huaweicloud.com/repository/maven/'
-        }
-        maven {
-            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
-        }
     }
 }
 
